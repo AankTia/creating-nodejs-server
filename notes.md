@@ -89,3 +89,14 @@ Client ==> Requests ==> Server ==> Response ==> Client
 ### The Node Module System
 - Import via require('./path-to-file') for costume file or require('module') for core & third-part modules
 - Export via module.exports or just exports (for multiple exports)
+
+### Useful Resources & Links
+Useful resources:
+
+Official Node.js Docs: https://nodejs.org/en/docs/guides/
+
+Full Node.js Reference (for all core modules): https://nodejs.org/dist/latest/docs/api/
+
+More about the Node.js Event Loop: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+
+Blocking and Non-Blocking Code: https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
