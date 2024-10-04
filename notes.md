@@ -63,3 +63,29 @@ The Event Loop
 - Close Callbacks (Execute all 'close' event callbacks)
 
 ## Node Modules System
+
+## Summary
+### How the Web Works
+Client ==> Requests ==> Server ==> Response ==> Client
+
+### Program 
+- Node.js runs non-blocking JS code and uses an event-driven code ("Event Loop) for running your logic.
+- A Node program exits as soon as there is no more work to do.
+- Note: The createServer() event never finished by default
+
+### Asynchronous Code
+- JS code is non-blocking
+- Use callbacks and events ==> Order changes!
+
+### Requests & Responses
+- Parse request data in chunks (Stream & Buffers)
+- Avoid "double responses"
+
+### Node.js & Core Modules
+- Node.js ships with multiple core modules (http, fs, path, ...)
+- Core modules can be imported into any file to be used there
+- Import via require('module')
+
+### The Node Module System
+- Import via require('./path-to-file') for costume file or require('module') for core & third-part modules
+- Export via module.exports or just exports (for multiple exports)
