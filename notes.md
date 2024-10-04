@@ -40,3 +40,25 @@ Whilst this article is a great resource, especially to dive deeper, please don't
 ### Stream & Buffers
 Stream
 Idea: Start working on the Data early
+
+## Event Drivent Code Execution
+
+## Blocking & Non-Blocking Code
+
+## Node.js behind the scene
+### Single Thread, Event Loop & Blocking Code
+Single JavaScript Thread ?
+
+Event Loop ?
+- Handle Event Callbacks
+
+Worker Pool
+- Do the Heavy Lifting
+
+The Event Loop
+- Timers (Execute setTimeout, setInterval Callbacks)
+- Pending Callback (Execute I/O-related callback that were deffered)
+- Poll (Retrive new I/O events, execute their callbaks)
+- Check (Execute setImmediate() callbacks)
+- Close Callbacks (Execute all 'close' event callbacks)
+
