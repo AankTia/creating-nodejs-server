@@ -35,3 +35,8 @@ Whilst this article is a great resource, especially to dive deeper, please don't
 ## Routing Requests
 
 ## Redirecting Requests
+
+## Parsing Request Bodies
+### Stream & Buffers
+Stream
+Idea: Start working on the Data early
