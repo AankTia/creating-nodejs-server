@@ -20,3 +20,8 @@ You can always do that by pressing CTRL + C in the terminal/ command prompt wind
 req.url
 req.method
 req.headers
+
+## Sending Response
+res.setHeader
+res.write
+res.end
