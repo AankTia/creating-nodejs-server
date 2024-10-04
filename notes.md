@@ -33,3 +33,5 @@ The following article provides a great overview of available headers and their r
 Whilst this article is a great resource, especially to dive deeper, please don't learn this list by heart though! You'll encounter many of these headers throughout the course and I'll explain them when we need them.
 
 ## Routing Requests
+
+## Redirecting Requests
